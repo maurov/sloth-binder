@@ -4,6 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - gcc
+  - cython
   - qt
   - pyqt=5
   - python=3.6
