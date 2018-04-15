@@ -3,6 +3,7 @@ channels:
   - defaults
   - conda-forge
 dependencies:
+  - gcc
   - qt
   - pyqt=5
   - python=3.6
@@ -13,6 +14,7 @@ dependencies:
   - jupyter
   - h5py
   - sqlalchemy
+  - ipywidgets
   #conda-forge
   - xraylib
   - peakutils
@@ -22,7 +24,8 @@ dependencies:
   - pytest
   - pip:
     - fisx
-    - pymca
     - silx
+    - pymca
     - fabio
     - hdf5plugin
+    - http://ftp.esrf.eu/pub/scisoft/shadow3/wheels/shadow3-18.1.24-cp36-cp36m-linux_x86_64.whl
