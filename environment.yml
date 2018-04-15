@@ -3,8 +3,6 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - gcc
-  - cython
   - qt
   - pyqt=5
   - python=3.6
@@ -23,10 +21,10 @@ dependencies:
   - asteval
   - psutil
   - pytest
-  - pip:
-    - fisx
-    - silx
-    - pymca
-    - fabio
-    - hdf5plugin
-    - http://ftp.esrf.eu/pub/scisoft/shadow3/wheels/shadow3-18.1.24-cp36-cp36m-linux_x86_64.whl
+  #- pip:
+  #  - hdf5plugin
+  #  - fisx
+  #  - silx
+  #  - pymca
+  #  - fabio
+  #  - http://ftp.esrf.eu/pub/scisoft/shadow3/wheels/shadow3-18.1.24-cp36-cp36m-linux_x86_64.whl
