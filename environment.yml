@@ -1,0 +1,28 @@
+name: sloth-binder
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - qt
+  - pyqt=5
+  - python=3.6
+  - numpy
+  - matplotlib
+  - scipy
+  - pandas
+  - jupyter
+  - h5py
+  - sqlalchemy
+  #conda-forge
+  - xraylib
+  - peakutils
+  - lmfit
+  - asteval
+  - psutil
+  - pytest
+  - pip:
+    - fisx
+    - pymca
+    - silx
+    - fabio
+    - hdf5plugin
