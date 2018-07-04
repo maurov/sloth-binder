@@ -24,7 +24,7 @@ dependencies:
   - pip:
     - hdf5plugin
     - fisx
-    - silx=0.8
+    - silx
     - pymca
     - fabio
     - http://ftp.esrf.eu/pub/scisoft/shadow3/wheels/shadow3-18.1.24-cp36-cp36m-linux_x86_64.whl
